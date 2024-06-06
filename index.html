@@ -1,47 +1,64 @@
+<!-- Beginning of 'DOCTYPE html' tag. -->
 <!DOCTYPE html>
+<!-- End of 'DOCTYPE html' tag. -->
+<!-- Beginning of 'html' tag. -->
 <html>
+  <!-- Beginning of 'head' tag. -->
   <head>
+    <!-- Beginning of 'meta' tag. -->
     <meta charset="utf-8" />
+    <!-- End of 'meta' tag. -->
+    <!-- Beginning of 'meta' tag. -->
     <!-- The 'viewport' is set to display the website properly on all devices with 'initial-scale=1'. -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- End of 'meta' tag. -->
     <!-- Beginning of the assessment name inside of the 'title' tag for the required Chegg Skill's 'Frontend foundations' assessment. -->
     <title>Vacation Rentals & Unique Homes</title>
     <!-- End of the assessment name inside of the 'title' tag for the required Chegg Skill's 'Frontend foundations' assessment. -->
+    <!-- Beginning of 'link' tag. -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <!-- End of 'link' tag. -->
+    <!-- Beginning of 'link' tag. -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- End of 'link' tag. -->
+    <!-- Beginning of 'link' tag. -->
     <link
       href="https://fonts.googleapis.com/css2?family=Pangolin&family=Lato&display=swap"
       rel="stylesheet"
     />
+    <!-- End of 'link' tag. -->
+    <!-- Beginning of 'link' tag. -->
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- End of 'link' tag. -->
   </head>
+  <!-- End of 'head' tag. -->
   <!-- Beginning of 'body' tag. -->
   <body>
     <!-- Beginning of 'header' tag. -->
     <header class="group header">
-      <!--  -->
+      <!-- Beginning of ".logo" 'div' tag. -->
       <div class="logo">Thinkfulbnb</div>
-      <!--  -->
+      <!-- End of ".logo" 'div' tag. -->
       <!-- Beginning of 'nav' tag. -->
       <nav>
         <!-- Beginning of "#menu" 'unordered list' tag. -->
         <ul id="menu">
-          <!--  -->
+          <!-- Beginning of "#stay" 'a' tag  inside of an 'li' tag. -->
           <li><a href="#stay">Stay</a></li>
-          <!--  -->
-          <!--  -->
+          <!-- End of "#stay" 'a' tag  inside of an 'li' tag. -->
+          <!-- Beginning of "#about" 'a' tag  inside of an 'li' tag. -->
           <li><a href="#about">About</a></li>
-          <!--  -->
-          <!--  -->
+          <!-- End of "#about" 'a' tag  inside of an 'li' tag. -->
+          <!-- Beginning of "#ideas" 'a' tag  inside of an 'li' tag. -->
           <li><a href="ideas">Ideas</a></li>
-          <!--  -->
-          <!--  -->
+          <!-- End of "#ideas" 'a' tag  inside of an 'li' tag. -->
+          <!-- Beginning of "#host" 'a' tag  inside of an 'li' tag. -->
           <li><a href="#host">Host</a></li>
-          <!--  -->
+          <!-- End of "#host" 'a' tag  inside of an 'li' tag. -->
         </ul>
         <!-- End  of "#menu" 'unordered list' tag. -->
       </nav>
@@ -54,70 +71,107 @@
 
       <!-- Beginning of "#stay" 'section' tag. -->
       <section id="stay" class="group">
-        <!--  -->
+        <!-- Beginning of 'h2' tag. -->
         <h2>Find the perfect vacation rental</h2>
-        <!--  -->
+        <!-- End of 'h2' tag. -->
         <!-- Create a form here -->
-        <!--  -->
-        <!--<div class="form-div">-->
+        <!-- Beginning of 'form' tag. -->
         <form method="post" action="/index.html">
+          <!-- Beginning of 'div' tag. -->
           <div>
+            <!-- Beginning of 'label' tag. -->
             <label for="location">Location</label>
+            <!-- End of 'label' tag. -->
+            <!-- Beginning of 'input ('text')' tag. -->
             <input type="text" id="location" required placeholder="Search destination" name="location">
+            <!-- End of 'input ('text')' tag. -->
           </div>
+          <!-- End of 'div' tag. -->
+          <!-- Beginning of 'div' tag. -->
           <div>
+            <!-- Beginning of 'label' tag. -->
             <label for="arrive">Arrive</label>
+            <!-- End of 'label' tag. -->
+            <!-- Beginning of 'input ('date')' tag. -->
             <input type="date" name="arrive-date" id="arrive" required>
+            <!-- End of 'input ('date')' tag. -->
           </div>
+          <!-- End of 'div' tag. -->
+          <!-- Beginning of 'div' tag. -->
           <div>
+            <!-- Beginning of 'label' tag. -->
             <label for="depart">Depart</label>
+            <!-- End of 'label' tag. -->
+            <!-- Beginning of 'input ('date')' tag. -->
             <input type="date" name="depart-date" id="depart" required>
+            <!-- End of 'input ('date')' tag. -->
           </div>
+          <!-- End of 'div' tag. -->
+          <!-- Beginning of ".form-last-div" 'div' tag. -->
           <div class="form-last-div">
+            <!-- Beginning of 'label' tag. -->
             <label for="type">Type</label>
+            <!-- End of 'label' tag. -->
+            <!-- Beginning of 'select' tag. -->
             <select name="property-type" id="type" required size="1">
+              <!-- Beginning of 'option' tag. -->
               <option value="apartment">Apartment</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="single-room">Barn</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="medievel-castle">Castle</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="houseboat">Houseboat</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="tiny-house">Tiny house</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="yacht">Yacht</option>
+              <!-- End of 'option' tag. -->
+              <!-- Beginning of 'option' tag. -->
               <option value="yurt">Yurt</option>
+              <!-- End of 'option' tag. -->
             </select>
+            <!-- End of 'select' tag. -->
           </div>
+          <!-- End of ".form-last-div" 'div' tag. -->
+          <!-- Beginning of 'button' tag. -->
           <button type="submit">Search</button>
+          <!-- End of 'button' tag. -->
         </form>
-      <!--</div>-->
-        <!--  -->
+        <!-- End of 'form' tag. -->
       </section>
-      <!--  of "#stay" 'section' tag. -->
+      <!-- End of "#stay" 'section' tag. -->
 
       <!-- About -->
 
-      <!--  of "#about" 'section' tag. -->
+      <!-- Beginning of "#about" 'section' tag. -->
       <section id="about" class="alternate-background group">
         <!-- Beginning of "#about" 'section' 'h2' tag. -->
         <h2>About</h2>
         <!-- End of "#about" 'section' 'h2' tag. -->
-        <!--  -->
-        <!--  -->
+        <!-- Beginning of ".about-content-div" 'section' 'div' tag. -->
         <div class="about-content-div">
+          <!-- End of ".about-content-div" 'section' 'div' tag. -->
+          <!-- Beginning of 'img' tag. -->
         <img
           src="images/vacation-rental-pool.png"
           alt="Thinkfulbnb - Vacation rental pool"
           class="item"
         />
-        <!--  -->
-        <!--  -->
+        <!-- End of 'img' tag. -->
+        <!-- Beginning of 'img' tag. -->
         <img
           src="images/vacation-rental-inside-stone.png"
           alt="Thinkfulbnb - Vacation rental inside stone"
           class="item"
         />
-      
-        <!--  -->
-        <!--  -->
-        <!--<div class="item-double">-->
+        <!-- End of 'img' tag. -->
+        <!-- Beginning of ".item-double" 'p' tag. -->
         <p class="item-double">
           Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
           fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
@@ -125,89 +179,70 @@
           neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
           gravida neque.
         </p>
-        <!--  -->
-      <!--</div>-->
+       <!-- End of ".item-double" 'p' tag. -->  
     </div>
-        <!--  -->
+        <!-- End of ".about-content-div" 'section' 'div' tag. -->
       </section>
-      <!--  of "#about" 'section' tag. -->
+      <!-- End of "#about" 'section' tag. -->
 
       <!-- Ideas -->
 
-      <!--  of "#ideas" 'section' tag. -->
+      <!-- Beginning of "#ideas" 'section' tag. -->
       <section id="ideas">
-        <!--  -->
+        <!-- Beginning of 'h2' tag. -->
         <h2>Ideas</h2>
-        <!--  -->
-        <!--  -->
-        
+        <!-- End of 'h2' tag. -->
+        <!-- Beginning of ".grid" 'div' tag. --> 
         <div class="grid">
-          <!--  -->
+          <!-- Beginning of ".item" 'div' tag. -->
         <div class="item">
-          <!--  -->
+          <!-- Beginning of 'h3' tag. -->
           <h3>Beaches</h3>
-          <!--  -->
-          <!--  -->
+          <!-- End of 'h3' tag. -->
+          <!-- Beginning of 'img' tag. -->
           <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
-          <!--  -->
+          <!-- End of 'img' tag. -->
         </div>
-        <!--  -->
-        <!--  -->
+        <!-- End of ".item" 'div' tag. -->
+        <!-- Beginning of ".item" 'div' tag. -->
         <div class="item">
-          <!--  -->
+          <!-- Beginning of 'h3' tag. -->
           <h3>Forest retreats</h3>
-          <!--  -->
-          <!--  -->
+          <!-- End of 'h3' tag. -->
+          <!-- Beginning of 'img' tag. -->
           <img
           src="images/forest-retreat.png"
           alt="Thinkfulbnb - Forest retreat"
         />
-        <!--  -->
+        <!-- End of 'img' tag. -->
         </div>
-        <!--  -->
-
+        <!-- End of ".item" 'div' tag. -->
         </div>
-        
-        <!--  -->
-        <!--  -->
-        
-        <!--  -->
-        
+        <!-- End of ".grid" 'div' tag. -->
+        <!-- Beginning of ".grid" 'div' tag. -->     
         <div class="grid">
-          <!--  -->
+          <!-- Beginning of ".item" 'div' tag. -->
         <div class="item">
-          <!--  -->
+          <!-- Beginning of 'h3' tag. -->
           <h3>Rustic cabins</h3>
-          <!--  -->
-          
-          <!--  -->
+          <!-- End of 'h3' tag. -->  
+          <!-- Beginning of 'img' tag. -->
           <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" />
-          <!--  -->
+          <!-- End of 'img' tag. -->
         </div>
-        <!--  -->
-
-        <!--  -->
+        <!-- End of ".item" 'div' tag. -->
+        <!-- Beginning of ".item" 'div' tag. -->
         <div class="item">
-          <!--  -->
+          <!-- Beginning of 'h3' tag. -->
           <h3>Pet-friendly</h3>
-          <!--  -->
-          <!--  -->
+          <!-- End of 'h3' tag. -->
+          <!-- Beginning of 'img' tag. -->
           <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" class="last-pic" />
-          <!--  -->
+          <!-- End of 'img' tag. -->
         </div>
-        <!--  -->
+        <!-- End of ".item" 'div' tag. -->
         </div>
-        
-        <!--  -->
-        
-        
-        <!--  -->
-        
-        <!--  -->
-        
-        <!--  -->
-        
-        <!--  -->
+        <!-- End of ".grid" 'div' tag. -->
       </section>
       <!-- End of "#ideas" 'section' tag. -->
 
@@ -215,15 +250,14 @@
 
       <!-- Beginning of "#host" 'section' tag. -->
       <section id="host" class="alternate-background">
-        
-        <!--  -->
+        <!-- Beginning of ".host-div" 'div' tag. -->
         <div class="host-div">
-          <!--  -->
-          <!--  -->
+          <!-- Beginning of ".host-info-div" 'div' tag. -->
           <div class="host-info-div">
-            <!--  -->
+            <!-- Beginning of 'h2' tag. -->
         <h2>Want to Become a Thinkfulbnb Host?</h2>
-        <!--  -->
+        <!-- End of 'h2' tag. -->
+        <!-- Beginning of 'p' tag. -->
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
@@ -231,47 +265,48 @@
               pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
               libero rutrum vitae.
             </p>
-            <!--  -->
-            <!-- Beginning of "#host" 'unordered list' tag. -->
+            <!-- End of 'p' tag. -->
+            <!-- Beginning of 'ul' tag. -->
             <ul>
-              <!--  -->
+              <!-- Beginning of 'li' tag. -->
               <li>Mauris in pellentesque ligula.</li>
-              <!--  -->
-              <!--  -->
+              <!-- End of 'li' tag. -->
+              <!-- Beginning of 'li' tag. -->
               <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
-              <!--  -->
-              <!--  -->
+              <!-- End of 'li' tag. -->
+              <!-- Beginning of 'li' tag. -->
               <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
-              <!--  -->
-              <!--  -->
+              <!-- End of 'li' tag. -->
+              <!-- Beginning of 'li' tag. -->
               <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
-              <!--  -->
-              <!--  -->
+              <!-- End of 'li' tag. -->
+              <!-- Beginning of 'li' tag. -->
               <li>
                 Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
                 hendrerit mauris.
               </li>
-              <!--  -->
+              <!-- End of 'li' tag. -->
             </ul>
+            <!-- Beginning of 'ul' tag. -->
           </div>
-       
-        <!-- End of "#host" 'unordered list' tag. -->
-        <!--  -->
+        <!-- End of ".host-info-div" 'div' tag. -->
+        <!-- Beginning of 'img' tag. -->
         <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" class=""/>
-        <!--  -->
+        <!-- End of 'img' tag. -->
         </div>
-        
+        <!-- End of ".host-div" 'div' tag. -->
       </section>
       <!-- End of "#host" 'section' tag. -->
     </main>
     <!-- End of 'main' tag. -->
     <!-- Beginning of 'footer' tag. -->
     <footer>
-      <!--  -->
+      <!-- Beginning of 'p' tag. -->
       <p>© Thinkful</p>
-      <!--  -->
+      <!-- End of 'p' tag. -->
     </footer>
     <!-- End of 'footer' tag. -->
   </body>
   <!-- End of 'body' tag. -->
 </html>
+<!-- End of 'html' tag. -->
