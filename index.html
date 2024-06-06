@@ -22,8 +22,7 @@
   <!-- Beginning of 'body' tag. -->
   <body>
     <!-- Beginning of 'header' tag. -->
-    <header>
-      <!--  -->
+    <header class="group header">
       <!--  -->
       <div class="logo">Thinkfulbnb</div>
       <!--  -->
@@ -54,15 +53,41 @@
       <!-- Stay -->
 
       <!-- Beginning of "#stay" 'section' tag. -->
-      <section id="stay">
+      <section id="stay" class="group">
         <!--  -->
         <h2>Find the perfect vacation rental</h2>
         <!--  -->
         <!-- Create a form here -->
         <!--  -->
-        <form>
-
+        <!--<div class="form-div">-->
+        <form method="post" action="/index.html">
+          <div>
+            <label for="location">Location</label>
+            <input type="text" id="location" required placeholder="Search destination" name="location">
+          </div>
+          <div>
+            <label for="arrive">Arrive</label>
+            <input type="date" name="arrive-date" id="arrive" required>
+          </div>
+          <div>
+            <label for="depart">Depart</label>
+            <input type="date" name="depart-date" id="depart" required>
+          </div>
+          <div class="form-last-div">
+            <label for="type">Type</label>
+            <select name="property-type" id="type" required size="1">
+              <option value="apartment">Apartment</option>
+              <option value="single-room">Barn</option>
+              <option value="medievel-castle">Castle</option>
+              <option value="houseboat">Houseboat</option>
+              <option value="tiny-house">Tiny house</option>
+              <option value="yacht">Yacht</option>
+              <option value="yurt">Yurt</option>
+            </select>
+          </div>
+          <button type="submit">Search</button>
         </form>
+      <!--</div>-->
         <!--  -->
       </section>
       <!--  of "#stay" 'section' tag. -->
@@ -70,30 +95,39 @@
       <!-- About -->
 
       <!--  of "#about" 'section' tag. -->
-      <section id="about" class="alternate-background">
-        <!--  -->
+      <section id="about" class="alternate-background group">
+        <!-- Beginning of "#about" 'section' 'h2' tag. -->
         <h2>About</h2>
+        <!-- End of "#about" 'section' 'h2' tag. -->
         <!--  -->
         <!--  -->
+        <div class="about-content-div">
         <img
           src="images/vacation-rental-pool.png"
           alt="Thinkfulbnb - Vacation rental pool"
+          class="item"
         />
         <!--  -->
         <!--  -->
         <img
           src="images/vacation-rental-inside-stone.png"
           alt="Thinkfulbnb - Vacation rental inside stone"
+          class="item"
         />
+      
         <!--  -->
         <!--  -->
-        <p>
+        <!--<div class="item-double">-->
+        <p class="item-double">
           Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
           fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
           porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
           neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
           gravida neque.
         </p>
+        <!--  -->
+      <!--</div>-->
+    </div>
         <!--  -->
       </section>
       <!--  of "#about" 'section' tag. -->
@@ -106,30 +140,73 @@
         <h2>Ideas</h2>
         <!--  -->
         <!--  -->
-        <h3>Forest retreats</h3>
+        
+        <div class="grid">
+          <!--  -->
+        <div class="item">
+          <!--  -->
+          <h3>Beaches</h3>
+          <!--  -->
+          <!--  -->
+          <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
+          <!--  -->
+        </div>
         <!--  -->
         <!--  -->
-        <img
+        <div class="item">
+          <!--  -->
+          <h3>Forest retreats</h3>
+          <!--  -->
+          <!--  -->
+          <img
           src="images/forest-retreat.png"
           alt="Thinkfulbnb - Forest retreat"
         />
         <!--  -->
+        </div>
         <!--  -->
-        <h3>Beaches</h3>
-        <!--  -->
-        <!--  -->
-        <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
-        <!--  -->
-        <h3>Rustic cabins</h3>
+
+        </div>
+        
         <!--  -->
         <!--  -->
-        <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" />
+        
         <!--  -->
+        
+        <div class="grid">
+          <!--  -->
+        <div class="item">
+          <!--  -->
+          <h3>Rustic cabins</h3>
+          <!--  -->
+          
+          <!--  -->
+          <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" />
+          <!--  -->
+        </div>
         <!--  -->
-        <h3>Pet-friendly</h3>
+
         <!--  -->
+        <div class="item">
+          <!--  -->
+          <h3>Pet-friendly</h3>
+          <!--  -->
+          <!--  -->
+          <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" class="last-pic" />
+          <!--  -->
+        </div>
         <!--  -->
-        <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" />
+        </div>
+        
+        <!--  -->
+        
+        
+        <!--  -->
+        
+        <!--  -->
+        
+        <!--  -->
+        
         <!--  -->
       </section>
       <!-- End of "#ideas" 'section' tag. -->
@@ -138,43 +215,52 @@
 
       <!-- Beginning of "#host" 'section' tag. -->
       <section id="host" class="alternate-background">
+        
         <!--  -->
+        <div class="host-div">
+          <!--  -->
+          <!--  -->
+          <div class="host-info-div">
+            <!--  -->
         <h2>Want to Become a Thinkfulbnb Host?</h2>
         <!--  -->
-        <!--  -->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
-          Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
-          pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
-          libero rutrum vitae.
-        </p>
-        <!--  -->
-        <!-- Beginning of "#host" 'unordered list' tag. -->
-        <ul>
-          <!--  -->
-          <li>Mauris in pellentesque ligula.</li>
-          <!--  -->
-          <!--  -->
-          <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
-          <!--  -->
-          <!--  -->
-          <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
-          <!--  -->
-          <!--  -->
-          <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
-          <!--  -->
-          <!--  -->
-          <li>
-            Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
-            hendrerit mauris.
-          </li>
-          <!--  -->
-        </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
+              Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
+              pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
+              libero rutrum vitae.
+            </p>
+            <!--  -->
+            <!-- Beginning of "#host" 'unordered list' tag. -->
+            <ul>
+              <!--  -->
+              <li>Mauris in pellentesque ligula.</li>
+              <!--  -->
+              <!--  -->
+              <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+              <!--  -->
+              <!--  -->
+              <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+              <!--  -->
+              <!--  -->
+              <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
+              <!--  -->
+              <!--  -->
+              <li>
+                Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
+                hendrerit mauris.
+              </li>
+              <!--  -->
+            </ul>
+          </div>
+       
         <!-- End of "#host" 'unordered list' tag. -->
         <!--  -->
-        <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
+        <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" class=""/>
         <!--  -->
+        </div>
+        
       </section>
       <!-- End of "#host" 'section' tag. -->
     </main>
