@@ -1,0 +1,19 @@
+{
+  "name": "starter-thinkfulbnb",
+  "version": "1.0.0",
+  "description": "Chegg Skills project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlee55504/starter-thinkfulbnb.git"
+  },
+  "author": "Jason Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlee55504/starter-thinkfulbnb/issues"
+  },
+  "homepage": "https://github.com/jlee55504/starter-thinkfulbnb#readme"
+}
