@@ -310,7 +310,7 @@ footer p {
 }
 */
 
-@media all and (min-width:768px) {
+@media all and (min-width:858px) {
   /*Start of header*/
   .header {
     flex-direction: row;
@@ -356,8 +356,12 @@ form {
   justify-content: center;
   gap: 70px;
   padding: .1% .75% 0% 1.5%;
+  width: auto;
   align-items: center;
   margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
 }
 
 .form-div {
@@ -392,7 +396,7 @@ form > div {
 }
 
 form > button {
-  padding: 15px 50px;
+  padding: .9rem 3rem;
   font-size: 23px;
 } 
 
