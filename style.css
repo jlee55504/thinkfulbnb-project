@@ -46,14 +46,14 @@ nav > ul {
 
 
 
-/*#stay*/
+/* #stay */
 
 #stay {
   padding: 5%;
   display: flex;
 }
 
-/*#about section*/
+/* #about section */
 
 #about {
  /* padding: 5.2% 8% 7%;*/
@@ -72,7 +72,7 @@ nav > ul {
   margin: 0;
 }
 
-/*#host section*/
+/* #host section */
 
 #host {
   /*display: flex;
@@ -87,7 +87,7 @@ nav > ul {
 
 
 
-/*#ideas section*/
+/* #ideas section */
 
 #ideas > h3 {
   /*font-size: medium;
@@ -166,6 +166,7 @@ form {
   margin: 3%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 form label {
@@ -310,8 +311,8 @@ footer p {
 }
 */
 
-@media all and (min-width:858px) {
-  /*Start of header*/
+@media all and (min-width:1854px) {
+  /* Start of header */
   .header {
     flex-direction: row;
     padding: 1.5%;
@@ -336,7 +337,7 @@ footer p {
 
   /*End of header*/
 
- /*Beginning of #stay section*/
+ /* Beginning of #stay section */
  #stay {
   align-items: center;
   flex-direction: column;
@@ -354,9 +355,8 @@ footer p {
 form {
   flex-direction: row;
   justify-content: center;
-  gap: 70px;
+  gap: 215px;
   padding: .1% .75% 0% 1.5%;
-  width: auto;
   align-items: center;
   margin: 1.25% 0 2.75%;
 }
@@ -400,9 +400,9 @@ form > button {
   font-size: 23px;
 } 
 
- /*End of #stay section*/
+ /* End of #stay section */
 
-/*Beginning of "#about" 'section'*/
+/* Beginning of "#about" 'section' */
 #about {
   justify-content: center;
   padding: 1% 3% 2% 1%;
@@ -453,11 +453,10 @@ h3:nth-of-type(1) {
 }
 /* End of "#ideas" 'section'. **/
 
-/*Beginning of "#host" 'section' tag. */
+/* Beginning of "#host" 'section' tag. */
 #host {
   padding: 2% 1.75% 2.25%;
 }
-
 
 .host-div {
   display: flex;
@@ -474,16 +473,4911 @@ h3:nth-of-type(1) {
   flex: 1;
   width: 45%;
 }
+
 /*End of "#host" 'section' tag. */
 
-/*Beginning of footer*/
+/* Beginning of footer */
   footer p {
     padding: 1.5% 0 1.5%;
     font-weight: 100;
   }
 
-  /*End of footer*/
+  /* End of footer */
 }
+
+@media all and (max-width:1853px) and (min-width: 1801px) {
+   /* Start of header */
+   .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+ 
+  #stay {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  
+    margin: 1.25% 0 0;
+    padding: 0;
+  }
+  
+  #stay > h2 {
+    margin-bottom: 5px;
+    margin-bottom: 0;
+  }
+  
+  form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 13rem;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+  .location-div, .arrive-div, .depart-div, .form-last-div {
+    
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: center;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+
+  #location {
+    width: 11.25rem;
+  }
+  
+  #arrive, #depart {
+    width: 10rem;
+  }
+  #type {
+    width: 10.5rem;
+  }
+  /*#arrive, #depart, #type, #date {
+    width: 200px;
+  }*/
+  
+  
+  form > div {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  
+  #stay > form > div > input {
+    margin-bottom: 21px;
+  }
+  
+  form > button {
+    padding: .9rem 3rem;
+    font-size: 23px;
+  } 
+
+  /* Beginning of "#about" 'section' */
+#about {
+  justify-content: center;
+  padding: 1% 3% 2% 1%;
+  align-items: center;
+  gap: 0;
+  
+}  
+
+.about-content-div {
+    display: flex;
+    margin-top: 1%;
+    padding-right: 1.25%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #about > .about-content-div > img {
+    width: 24%;
+  }
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1% 3% 2%;
+}
+
+
+.grid {
+  display: flex;
+  gap: 25px;
+}
+
+#ideas > img {
+  margin-top: 5%;
+}
+
+#ideas > h2 {
+  margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+  padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.host-info-div {
+  flex: 1;
+}
+
+#host > .host-div > img {
+  flex: 1;
+  width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+  footer p {
+    padding: 1.5% 0 1.5%;
+    font-weight: 100;
+  }
+
+  /* End of footer */
+}
+
+@media all and (max-width:1801px) and (min-width: 1706px) {
+   /* Start of header */
+   .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+ 
+  #stay {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  
+    margin: 1.25% 0 0;
+    padding: 0;
+  }
+  
+  #stay > h2 {
+    margin-bottom: 5px;
+    margin-bottom: 0;
+  }
+  
+  form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+  .location-div, .arrive-div, .depart-div, .form-last-div {
+    
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: center;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+
+  #location {
+    width: 11.25rem;
+  }
+  
+  #arrive, #depart {
+    width: 10rem;
+  }
+  #type {
+    width: 10.5rem;
+  }
+  /*#arrive, #depart, #type, #date {
+    width: 200px;
+  }*/
+  
+  
+  form > div {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  
+  #stay > form > div > input {
+    margin-bottom: 21px;
+  }
+  
+  form > button {
+    padding: .9rem 3rem;
+    font-size: 23px;
+  } 
+
+  /* Beginning of "#about" 'section' */
+#about {
+  justify-content: center;
+  padding: 1% 3% 2% 1%;
+  align-items: center;
+  gap: 0;
+  
+}  
+
+.about-content-div {
+    display: flex;
+    margin-top: 1%;
+    padding-right: 1.25%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #about > .about-content-div > img {
+    width: 24%;
+  }
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1% 3% 2%;
+}
+
+
+.grid {
+  display: flex;
+  gap: 25px;
+}
+
+#ideas > img {
+  margin-top: 5%;
+}
+
+#ideas > h2 {
+  margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+  padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.host-info-div {
+  flex: 1;
+}
+
+#host > .host-div > img {
+  flex: 1;
+  width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+  footer p {
+    padding: 1.5% 0 1.5%;
+    font-weight: 100;
+  }
+
+  /* End of footer */
+}
+
+@media all and (max-width:1705px) and (min-width: 1678px) {
+    /* Start of header */
+    .header {
+      flex-direction: row;
+      padding: 1.5%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    header > ul {
+      margin: 0;
+    }
+  
+  
+    .logo {
+      font-size: 2.4rem;
+    }
+    
+   
+    header nav ul li a {
+      /*font-size: smaller;*/
+      font-weight: 100;
+    }
+  
+    /*End of header*/
+  
+   /* Beginning of #stay section */
+  
+  #stay {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  
+    margin: 1.25% 0 0;
+    padding: 0;
+  }
+  
+  #stay > h2 {
+    margin-bottom: 5px;
+    margin-bottom: 0;
+  }
+  
+  form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 11rem;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+  .location-div, .arrive-div, .depart-div, .form-last-div {
+    
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: center;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+
+  #location {
+    width: 11.25rem;
+  }
+  
+  #arrive, #depart {
+    width: 10rem;
+  }
+  #type {
+    width: 10.5rem;
+  }
+  /*#arrive, #depart, #type, #date {
+    width: 200px;
+  }*/
+  
+  
+  form > div {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  
+  #stay > form > div > input {
+    margin-bottom: 21px;
+  }
+  
+  form > button {
+    padding: .9rem 3rem;
+    font-size: 23px;
+  } 
+
+  /* Beginning of "#about" 'section' */
+#about {
+  justify-content: center;
+  padding: 1% 3% 2% 1%;
+  align-items: center;
+  gap: 0;
+  
+}  
+
+.about-content-div {
+    display: flex;
+    margin-top: 1%;
+    padding-right: 1.25%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #about > .about-content-div > img {
+    width: 24%;
+  }
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1% 3% 2%;
+}
+
+
+.grid {
+  display: flex;
+  gap: 25px;
+}
+
+#ideas > img {
+  margin-top: 5%;
+}
+
+#ideas > h2 {
+  margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+  padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.host-info-div {
+  flex: 1;
+}
+
+#host > .host-div > img {
+  flex: 1;
+  width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+  footer p {
+    padding: 1.5% 0 1.5%;
+    font-weight: 100;
+  }
+
+  /* End of footer */
+}
+
+@media all and (max-width:1677px) and (min-width: 1589px) {
+    /* Start of header */
+    .header {
+      flex-direction: row;
+      padding: 1.5%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    header > ul {
+      margin: 0;
+    }
+  
+  
+    .logo {
+      font-size: 2.4rem;
+    }
+    
+   
+    header nav ul li a {
+      /*font-size: smaller;*/
+      font-weight: 100;
+    }
+  
+    /*End of header*/
+  
+   /* Beginning of #stay section */
+  
+  #stay {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  
+    margin: 1.25% 0 0;
+    padding: 0;
+  }
+  
+  #stay > h2 {
+    margin-bottom: 5px;
+    margin-bottom: 0;
+  }
+  
+  form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    padding: .1% .75% 0% 1.5%;
+    align-items: center;
+    margin: 1.25% 0 2.75%;
+  }
+  .location-div, .arrive-div, .depart-div, .form-last-div {
+    
+  }
+
+
+  #location {
+    width: 11.25rem;
+  }
+  
+  #arrive, #depart {
+    width: 10rem;
+  }
+  #type {
+    width: 10.5rem;
+  }
+  /*#arrive, #depart, #type, #date {
+    width: 200px;
+  }*/
+  
+  
+  form > div {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  
+  #stay > form > div > input {
+    margin-bottom: 21px;
+  }
+  
+  form > button {
+    padding: .9rem 3rem;
+    font-size: 23px;
+  } 
+
+  /* Beginning of "#about" 'section' */
+#about {
+  justify-content: center;
+  padding: 1% 3% 2% 1%;
+  align-items: center;
+  gap: 0;
+  
+}  
+
+.about-content-div {
+    display: flex;
+    margin-top: 1%;
+    padding-right: 1.25%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #about > .about-content-div > img {
+    width: 24%;
+  }
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1% 3% 2%;
+}
+
+
+.grid {
+  display: flex;
+  gap: 25px;
+}
+
+#ideas > img {
+  margin-top: 5%;
+}
+
+#ideas > h2 {
+  margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+  padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.host-info-div {
+  flex: 1;
+}
+
+#host > .host-div > img {
+  flex: 1;
+  width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+  footer p {
+    padding: 1.5% 0 1.5%;
+    font-weight: 100;
+  }
+
+  /* End of footer */
+}
+
+@media all and (max-width:1598px) and (min-width: 1533px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 9rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1553px) and (min-width: 1544px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 9rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+@media all and (max-width:1544px) and (min-width: 1549px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1548px) and (min-width: 1539px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1542px) and (min-width: 1536px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1515px) and (min-width: 1440px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1535px) and (min-width: 1515px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1515px) and (min-width: 1440px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1439px) and (min-width: 1419px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 7.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1418px) and (min-width: 1389px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 7rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1515px) and (min-width: 1440px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1439px) and (min-width: 1419px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 7.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1388px) and (min-width: 1350px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 6.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1349px) and (min-width: 1320px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 6rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1319px) and (min-width: 1300px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 5.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1299px) and (min-width: 1275px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1274px) and (min-width: 1220px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 4.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1219px) and (min-width: 1180px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1179px) and (min-width: 1160px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 3.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1159px) and (min-width: 1120px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1119px) and (min-width: 1100px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1099px) and (min-width: 1050px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1906px) and (min-width: 1850px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1099px) and (min-width: 1050px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
+@media all and (max-width:1049px) and (min-width: 1000px) {
+  /* Start of header */
+  .header {
+    flex-direction: row;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > ul {
+    margin: 0;
+  }
+
+
+  .logo {
+    font-size: 2.4rem;
+  }
+  
+ 
+  header nav ul li a {
+    /*font-size: smaller;*/
+    font-weight: 100;
+  }
+
+  /*End of header*/
+
+ /* Beginning of #stay section */
+
+#stay {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  margin: 1.25% 0 0;
+  padding: 0;
+}
+
+#stay > h2 {
+  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form {
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: .1% .75% 0% 1.5%;
+  align-items: center;
+  margin: 1.25% 0 2.75%;
+}
+.location-div, .arrive-div, .depart-div, .form-last-div {
+  
+}
+
+
+#location {
+  width: 11.25rem;
+}
+
+#arrive, #depart {
+  width: 10rem;
+}
+#type {
+  width: 10.5rem;
+}
+/*#arrive, #depart, #type, #date {
+  width: 200px;
+}*/
+
+
+form > div {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#stay > form > div > input {
+  margin-bottom: 21px;
+}
+
+form > button {
+  padding: .9rem 3rem;
+  font-size: 23px;
+} 
+
+/* Beginning of "#about" 'section' */
+#about {
+justify-content: center;
+padding: 1% 3% 2% 1%;
+align-items: center;
+gap: 0;
+
+}  
+
+.about-content-div {
+  display: flex;
+  margin-top: 1%;
+  padding-right: 1.25%;
+  gap: 10px;
+  align-items: center;
+}
+
+#about > .about-content-div > img {
+  width: 24%;
+}
+
+/* End of "#about" 'section'. */
+
+/* Beginning of "#ideas" 'section'. */
+#ideas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 1% 3% 2%;
+}
+
+
+.grid {
+display: flex;
+gap: 25px;
+}
+
+#ideas > img {
+margin-top: 5%;
+}
+
+#ideas > h2 {
+margin-bottom: 2.5%;
+}
+
+h3:nth-of-type(1) {
+margin-top: 0;
+margin-bottom: 2%;
+}
+/* End of "#ideas" 'section'. **/
+
+/* Beginning of "#host" 'section' tag. */
+#host {
+padding: 2% 1.75% 2.25%;
+}
+
+.host-div {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.host-info-div {
+flex: 1;
+}
+
+#host > .host-div > img {
+flex: 1;
+width: 45%;
+}
+
+/*End of "#host" 'section' tag. */
+
+/* Beginning of footer */
+footer p {
+  padding: 1.5% 0 1.5%;
+  font-weight: 100;
+}
+
+/* End of footer */
+}
+
 
 /*@media all and (width:768px) and (height: 1024px) {
  header {
