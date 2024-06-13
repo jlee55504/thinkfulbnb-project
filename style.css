@@ -325,7 +325,7 @@ footer p {
     align-items: center;
     flex-direction: column;
     display: flex;
-  
+    width: 100%;
     margin: 1.25% 0 0;
     padding: 0;
   }
@@ -337,8 +337,9 @@ footer p {
   
   form {
     flex-direction: row;
-    justify-content: center;
-    gap: 1.3rem;
+    justify-content: space-between;
+    width:90%;
+    gap: 3%;
     padding: .1% .75% 0% 1.5%;
     align-items: center;
     margin: 1.25% 0 2.75%;
@@ -349,14 +350,14 @@ footer p {
   
   
   #location {
-    width: 8.5rem;
+    width: 100%;
   }
   
   #arrive, #depart {
-    width: 8rem;
+    width: 100%;
   }
   #type {
-    width: 8.5rem;
+    width: 115%;
   }
   /*#arrive, #depart, #type, #date {
     width: 200px;
@@ -375,7 +376,8 @@ footer p {
   
   form > button {
     padding: .7rem 1rem;
-    font-size: 23px;
+    font-size: 1.3rem;
+    width: 12%;
   } 
   
   /* Beginning of "#about" 'section' */
