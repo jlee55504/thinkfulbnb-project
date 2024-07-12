@@ -1,4 +1,5 @@
 /* -------  General Styles ------- */
+
 body {
   font-family: "Lato", sans-serif;
   display: flex;
@@ -159,6 +160,7 @@ header nav ul li a:hover {
 }
 
 /* -------  Search Form ------- */
+
 form {
   border: 2px solid #ff385c;
   padding: 10px;
@@ -211,87 +213,9 @@ footer p {
   color: #fff;
   text-align: center;
   padding: 20px;
-  /*flex: 1;
-  padding: 10% 0 55% 0;
-    padding: 0 0 40% 0;
-    padding: 5.75% 0 40%;
-    margin: 15% 0;
-    */
 }
 
-/* -------  Media Query ------- */
-/*@media all and (width:375px) and (height: 667px) {
-  
-  .logo {
-    font-size: 65px;
-  }
-
-  footer p {
-    padding: 5.9% 0 31.5%;
-  }
-}
-
-@media all and (width:360px) and (height: 740px) {
- 
-  .logo {
-    font-size: 65px;
-  }
-
-  header nav ul li a {
-    font-size: medium;
-  }
-
-  footer p {
-    padding: 7% 0 54%;
-  }
-}
-
-@media all and (width:540px) and (height: 720px) {
-  footer p {
-    padding: 5% 0 39.25%;
-    font-size: large;
-  }
-}
-
-@media all and (width:280px) and (height: 653px) {
-  
-  h2 {
-    letter-spacing: 0;
-  }
-
-
-  header {
-    display: block;
-  }
-
-
-   header > nav  {
-    display: flex;
-  }
-
-  form {
-    padding: 6% 3% 4%;
-  }
-
-  form > div {
-    align-items: baseline;
-  }
-
-  .logo {
-    font-size: 45px;
-  }
-
-  #stay {
-    padding: 5% 0;
-  }
-
-  footer p {
-    padding: 6% 0 48.5%;
-  }
-}
-
-*/
-
+/* CSS for all screens over 768px. */
 
 @media all and (min-width: 768px) {
     /* Start of header */
@@ -359,10 +283,6 @@ footer p {
   #type {
     width: 115%;
   }
-  /*#arrive, #depart, #type, #date {
-    width: 200px;
-  }*/
-  
   
   form > div {
     justify-content: center;
@@ -381,6 +301,7 @@ footer p {
   } 
   
   /* Beginning of "#about" 'section' */
+
   #about {
   justify-content: center;
   padding: 1% 3% 2% 1%;
@@ -404,6 +325,7 @@ footer p {
   /* End of "#about" 'section'. */
   
   /* Beginning of "#ideas" 'section'. */
+
   #ideas {
   display: flex;
   justify-content: center;
@@ -432,6 +354,7 @@ footer p {
   /* End of "#ideas" 'section'. **/
   
   /* Beginning of "#host" 'section' tag. */
+
   #host {
   padding: 2% 1.75% 2.25%;
   }
@@ -455,6 +378,7 @@ footer p {
   /*End of "#host" 'section' tag. */
   
   /* Beginning of footer */
+
   footer p {
     padding: 1.5% 0 1.5%;
     font-weight: 100;
