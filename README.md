@@ -4,13 +4,15 @@ A mobile-first responsive web application that allows people to rent out their h
 
 ## Features
 
-  - **Mobile-first development:** Web application was built using a mobile-first design.
+  - **Mobile-first development:** Built using a mobile-first design.
   - **Responsive layout:** Web page layout adapts to different screen sizes.
 
 ## Technologies Used
 
   - **HTML:** Visually displays the content of the application
   - **CSS:** Provides visual styling for the application
+
+## Screenshots
 
 ### Mobile View
 
@@ -60,4 +62,4 @@ Upon running the application, you'll be presented with a home page and:
 ## Acknowledgments
 
  - This project was built for the Chegg Skill's software engineering program
- - This was my first project built using a mobile-first approach
+ - This was my first project built using a mobile-first design approach
