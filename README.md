@@ -55,9 +55,9 @@ Upon running the application, you'll be presented with a home page and:
 
 ## Code Structure
 
-  - **images/:** A folder containing all the images used for the design
-  - **index.html:** Main application entry point
-  - **style.css:** Handles the visual styling of the application
+  - ``images/:`` A folder containing all the images used for the design
+  - ``index.html:`` Main application entry point
+  - ``style.css:`` Handles the visual styling of the application
 
 ## Acknowledgments
 
