@@ -10,7 +10,7 @@ A mobile-first responsive web application that allows people to rent out their h
 ## Technologies Used
 
   - **HTML:** Visually displays the content of the application
-  - **CSS:** Provides visual styling for the application
+  - **CSS:** Provides visual styling of the application
 
 ## Screenshots
 
@@ -50,6 +50,7 @@ A mobile-first responsive web application that allows people to rent out their h
 ## Usage
 
 Upon running the application, you'll be presented with a home page and:
+
   1. 4 links to specific sections of the web page
   2. The ability to book a vacation rental
 
